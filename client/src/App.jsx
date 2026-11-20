@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, useLocation, Navigate } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import Navbar from './components/common/Navbar';
@@ -94,10 +94,13 @@ function AppLayout({ children }) {
 }
 
 export default function App() {
+  const isGitHubPages = typeof window !== 'undefined' && window.location.hostname.includes('github.io');
+  const Router = isGitHubPages ? HashRouter : BrowserRouter;
+
   return (
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
-        <BrowserRouter>
+        <Router>
           <AppLayout>
             <Routes>
               {/* Protected Portal Routes (Only accessible after login) */}
@@ -178,7 +181,7 @@ export default function App() {
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </AppLayout>
-        </BrowserRouter>
+        </Router>
       </AuthProvider>
     </QueryClientProvider>
   );
