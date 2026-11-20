@@ -1,0 +1,28 @@
+{
+  "name": "jobyatra",
+  "version": "1.0.0",
+  "description": "JobYatra - Universal Job Aggregator and Direct Hiring Platform for India",
+  "main": "server/index.js",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "seed": "npm run seed --prefix server",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "job-aggregator",
+    "india-jobs",
+    "naukri",
+    "linkedin",
+    "apna",
+    "deduplication",
+    "mern"
+  ],
+  "author": "JobYatra Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
