@@ -3,12 +3,10 @@ import { Link, useNavigate } from 'react-router-dom';
 import { User, Building2, Lock, Mail, Phone, MapPin, ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import JobYatraLogo from '../components/common/JobYatraLogo';
-import { GoogleIcon, FacebookIcon, LinkedInIcon } from '../components/common/SocialIcons';
-import SocialAuthModal from '../components/common/SocialAuthModal';
 
 export default function RegisterPage() {
   const navigate = useNavigate();
-  const { register, socialLogin } = useAuth();
+  const { register } = useAuth();
 
   const [role, setRole] = useState('CANDIDATE');
   const [formData, setFormData] = useState({
@@ -21,34 +19,8 @@ export default function RegisterPage() {
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [socialModalOpen, setSocialModalOpen] = useState(false);
-  const [socialProvider, setSocialProvider] = useState('GOOGLE');
   const [isPostRegisterLoading, setIsPostRegisterLoading] = useState(false);
   const [progress, setProgress] = useState(0);
-
-  const handleSocialClick = (providerName) => {
-    setSocialProvider(providerName);
-    setSocialModalOpen(true);
-  };
-
-  const handleSocialAccountSelected = async (account) => {
-    setSocialModalOpen(false);
-    setLoading(true);
-    setError('');
-    try {
-      await socialLogin({ ...account, role });
-      setLoading(false);
-      setIsPostRegisterLoading(true);
-      setTimeout(() => setProgress(100), 50);
-      // 2 seconds logo loading, then enter the portal home
-      setTimeout(() => {
-        navigate('/');
-      }, 2000);
-    } catch (err) {
-      setError(err?.message || 'Social sign-up failed. Please try again.');
-      setLoading(false);
-    }
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -115,53 +87,6 @@ export default function RegisterPage() {
             </button>
           </div>
 
-          {/* 1-Click Fast Track: Social Authentication Options */}
-          <div className="space-y-2.5 mb-6">
-            <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block text-center">
-              1-Click Instant Sign Up
-            </span>
-
-            {/* Continue with Google Button */}
-            <button
-              type="button"
-              onClick={() => handleSocialClick('GOOGLE')}
-              className="w-full flex items-center justify-center gap-2.5 py-2.5 px-4 bg-white hover:bg-slate-50 border border-slate-200/90 hover:border-slate-300 rounded-xl text-xs font-bold text-slate-700 transition-all shadow-xs active:scale-98"
-            >
-              <GoogleIcon className="w-4 h-4" />
-              <span>Continue with Google</span>
-            </button>
-
-            {/* LinkedIn & Facebook Grid */}
-            <div className="grid grid-cols-2 gap-2">
-              <button
-                type="button"
-                onClick={() => handleSocialClick('LINKEDIN')}
-                className="flex items-center justify-center gap-2 py-2 px-3 bg-[#0A66C2] hover:bg-[#004182] text-white rounded-xl text-xs font-bold transition-all shadow-xs active:scale-98"
-              >
-                <LinkedInIcon className="w-3.5 h-3.5 fill-white" />
-                <span>LinkedIn</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => handleSocialClick('FACEBOOK')}
-                className="flex items-center justify-center gap-2 py-2 px-3 bg-[#1877F2] hover:bg-[#145dbf] text-white rounded-xl text-xs font-bold transition-all shadow-xs active:scale-98"
-              >
-                <FacebookIcon className="w-3.5 h-3.5 fill-white" />
-                <span>Facebook</span>
-              </button>
-            </div>
-          </div>
-
-          {/* Divider */}
-          <div className="relative flex items-center justify-center my-6">
-            <div className="border-t border-slate-200 w-full"></div>
-            <span className="bg-white px-3 text-[10px] font-bold tracking-wider uppercase text-slate-400 whitespace-nowrap">
-              Or register with email
-            </span>
-            <div className="border-t border-slate-200 w-full"></div>
-          </div>
-
           {error && (
             <div className="mb-4 p-3 bg-rose-50 border border-rose-200 text-rose-800 text-xs rounded-xl font-semibold">
               {error}
@@ -173,87 +98,114 @@ export default function RegisterPage() {
               <label className="block text-xs font-bold text-slate-700 mb-1">
                 {role === 'EMPLOYER' ? 'Hiring Lead / Company Name' : 'Full Name'}
               </label>
-              <input
-                type="text"
-                required
-                placeholder={role === 'EMPLOYER' ? 'e.g. Swiggy HR Lead' : 'e.g. Aarav Sharma'}
-                value={formData.name}
-                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                className="w-full text-xs p-2.5 rounded-xl border border-slate-200 focus:outline-none focus:border-gold"
-              />
+              <div className="relative">
+                <User className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  required
+                  placeholder={role === 'EMPLOYER' ? 'e.g. Swiggy Recruiting' : 'e.g. Aarav Sharma'}
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-none focus:border-gold transition-colors"
+                />
+              </div>
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-slate-700 mb-1">Email Address</label>
-              <input
-                type="email"
-                required
-                placeholder="name@company.com"
-                value={formData.email}
-                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className="w-full text-xs p-2.5 rounded-xl border border-slate-200 focus:outline-none focus:border-gold"
-              />
+              <label className="block text-xs font-bold text-slate-700 mb-1">
+                Official Email Address
+              </label>
+              <div className="relative">
+                <Mail className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <input
+                  type="email"
+                  required
+                  placeholder="name@example.com"
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-none focus:border-gold transition-colors"
+                />
+              </div>
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-slate-700 mb-1">Password</label>
-              <input
-                type="password"
-                required
-                placeholder="Minimum 6 characters"
-                value={formData.password}
-                onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                className="w-full text-xs p-2.5 rounded-xl border border-slate-200 focus:outline-none focus:border-gold"
-              />
+              <label className="block text-xs font-bold text-slate-700 mb-1">
+                Secure Password
+              </label>
+              <div className="relative">
+                <Lock className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <input
+                  type="password"
+                  required
+                  placeholder="Min. 6 characters"
+                  value={formData.password}
+                  onChange={(e) => setFormData({ ...formData, password: e.target.value })}
+                  className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-none focus:border-gold transition-colors"
+                />
+              </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-3">
-              <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">Phone</label>
+            <div>
+              <label className="block text-xs font-bold text-slate-700 mb-1">
+                Contact Phone (+91)
+              </label>
+              <div className="relative">
+                <Phone className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                 <input
                   type="tel"
                   placeholder="+91 98765 43210"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  className="w-full text-xs p-2.5 rounded-xl border border-slate-200"
-                />
-              </div>
-              <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">City Hub</label>
-                <input
-                  type="text"
-                  placeholder="e.g. Bengaluru"
-                  value={formData.city}
-                  onChange={(e) => setFormData({ ...formData, city: e.target.value })}
-                  className="w-full text-xs p-2.5 rounded-xl border border-slate-200"
+                  className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-none focus:border-gold transition-colors"
                 />
               </div>
             </div>
 
-            {role === 'CANDIDATE' && (
+            <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">Highest Qualification</label>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  City Hub
+                </label>
+                <select
+                  value={formData.city}
+                  onChange={(e) => setFormData({ ...formData, city: e.target.value })}
+                  className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-none focus:border-gold transition-colors"
+                >
+                  <option value="Bengaluru">Bengaluru</option>
+                  <option value="Hyderabad">Hyderabad</option>
+                  <option value="Mumbai">Mumbai</option>
+                  <option value="Pune">Pune</option>
+                  <option value="Delhi NCR">Delhi NCR</option>
+                  <option value="Chennai">Chennai</option>
+                  <option value="Remote">Pan-India (Remote)</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  Highest Qualification
+                </label>
                 <select
                   value={formData.qualification}
                   onChange={(e) => setFormData({ ...formData, qualification: e.target.value })}
-                  className="w-full text-xs p-2.5 rounded-xl border border-slate-200 bg-white"
+                  className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-none focus:border-gold transition-colors"
                 >
                   <option value="10th Pass">10th Pass (Matric)</option>
-                  <option value="12th / Inter">12th / Inter / Intermediate</option>
-                  <option value="Diploma / ITI">Diploma / ITI (Technical)</option>
-                  <option value="Any Graduate">Any Graduate (B.Com / BA / B.Sc)</option>
+                  <option value="12th / Inter">12th / Intermediate</option>
+                  <option value="Diploma / ITI">Diploma / ITI</option>
+                  <option value="Any Graduate">Any Graduate</option>
                   <option value="B.Tech / B.E">B.Tech / B.E / Engineering</option>
                   <option value="Post Graduate">Post Graduate (MBA / MCA)</option>
                 </select>
               </div>
-            )}
+            </div>
 
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-gold hover:bg-gold-400 text-navy-950 font-bold py-3 rounded-xl transition-all text-xs flex items-center justify-center gap-2 shadow-sm disabled:opacity-50 mt-2"
+              className="w-full bg-gold hover:bg-gold-400 text-navy-950 font-bold py-3 rounded-xl transition-all text-xs flex items-center justify-center gap-2 shadow-sm disabled:opacity-50 mt-4 cursor-pointer"
             >
-              <span>{loading ? 'Registering...' : 'Complete Free Registration'}</span>
+              <span>{loading ? 'Creating Account...' : 'Complete Free Registration'}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </form>
@@ -267,14 +219,6 @@ export default function RegisterPage() {
 
         </div>
       </div>
-
-      <SocialAuthModal
-        isOpen={socialModalOpen}
-        onClose={() => setSocialModalOpen(false)}
-        provider={socialProvider}
-        onSelectAccount={handleSocialAccountSelected}
-        role={role}
-      />
 
       {/* 2-Second Post-Registration Branded Loading Screen with JobYatra Logo */}
       {isPostRegisterLoading && (
