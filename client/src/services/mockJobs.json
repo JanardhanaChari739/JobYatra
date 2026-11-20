@@ -1,0 +1,2058 @@
+[
+  {
+    "_id": "job-1",
+    "title": "Operations Executive",
+    "slug": "operations-executive-zomato-logistics-ltd-hyderabad",
+    "companyName": "Zomato Logistics Ltd",
+    "companyId": {
+      "_id": "comp-1",
+      "name": "Zomato Logistics Ltd",
+      "slug": "zomato-logistics-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "12th / Inter"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 3,
+    "salaryMin": 350000,
+    "salaryMax": 500000,
+    "salaryDisplay": "INR 3.5-5 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 8,
+    "skills": [
+      "Fleet Operations",
+      "Vendor Management",
+      "MS Excel",
+      "Problem Solving"
+    ],
+    "description": "Lead last-mile delivery operations, monitor fleet metrics, streamline rider allocations, and coordinate daily vendor performance across Hyderabad central hubs.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Operations%20Executive%20Zomato&cityTypeGid=Hyderabad",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-20T06:24:51.177Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-2",
+    "title": "Operations Executive",
+    "slug": "operations-executive-zomato-hyderabad",
+    "companyName": "Zomato",
+    "companyId": {
+      "_id": "comp-2",
+      "name": "Zomato",
+      "slug": "zomato",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 3,
+    "salaryMin": 350000,
+    "salaryMax": 500000,
+    "salaryDisplay": "INR 3.5-5 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 8,
+    "skills": [
+      "Fleet Operations",
+      "Logistics",
+      "Vendor Coordination"
+    ],
+    "description": "Lead operations for food and grocery delivery logistics across Hyderabad.",
+    "sources": [
+      {
+        "portal": "Indeed",
+        "url": "https://in.indeed.com/jobs?q=Operations+Executive+Zomato&l=Hyderabad",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-20T02:24:51.178Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-3",
+    "title": "Data Analyst",
+    "slug": "data-analyst-meesho-technologies-mumbai",
+    "companyName": "Meesho Technologies",
+    "companyId": {
+      "_id": "comp-3",
+      "name": "Meesho Technologies",
+      "slug": "meesho-technologies",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "B.Tech / B.E"
+    ],
+    "experienceMin": 2,
+    "experienceMax": 4,
+    "salaryMin": 1200000,
+    "salaryMax": 1600000,
+    "salaryDisplay": "INR 12-16 LPA",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 3,
+    "skills": [
+      "SQL",
+      "Python",
+      "Tableau",
+      "E-commerce Analytics",
+      "A/B Testing"
+    ],
+    "description": "Analyze seller and consumer behavior data for India’s premier social commerce marketplace. Build interactive operational dashboards and present conversion funnel insights to product leaders.",
+    "sources": [
+      {
+        "portal": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst%20Meesho&location=Mumbai",
+        "isDirect": false
+      },
+      {
+        "portal": "Indeed",
+        "url": "https://in.indeed.com/jobs?q=Data+Analyst+Meesho&l=Mumbai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-19T22:24:51.178Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-5",
+    "title": "Product Manager",
+    "slug": "product-manager-razorpay-software-bengaluru",
+    "companyName": "Razorpay Software",
+    "companyId": {
+      "_id": "comp-5",
+      "name": "Razorpay Software",
+      "slug": "razorpay-software",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "Post Graduate",
+      "B.Tech / B.E"
+    ],
+    "experienceMin": 3,
+    "experienceMax": 6,
+    "salaryMin": 2000000,
+    "salaryMax": 2800000,
+    "salaryDisplay": "INR 20-28 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 2,
+    "skills": [
+      "Fintech",
+      "Payment Gateway",
+      "API Design",
+      "Roadmap Planning",
+      "Agile"
+    ],
+    "description": "Drive the merchant checkout experience across millions of online transactions every day. Define feature specifications, collaborate with engineering, risk, and compliance teams.",
+    "sources": [
+      {
+        "portal": "Direct Company",
+        "url": "https://razorpay.com/jobs",
+        "isDirect": true
+      },
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Product%20Manager%20Razorpay&cityTypeGid=Bengaluru",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-19T14:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-6",
+    "title": "Product Manager",
+    "slug": "product-manager-razorpay-bengaluru",
+    "companyName": "Razorpay",
+    "companyId": {
+      "_id": "comp-6",
+      "name": "Razorpay",
+      "slug": "razorpay",
+      "isVerified": true
+    },
+    "qualification": [
+      "Post Graduate",
+      "B.Tech / B.E"
+    ],
+    "experienceMin": 3,
+    "experienceMax": 7,
+    "salaryMin": 2000000,
+    "salaryMax": 2800000,
+    "salaryDisplay": "INR 20-28 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 2,
+    "skills": [
+      "Product Strategy",
+      "Fintech",
+      "Payments",
+      "Data-driven Decision Making"
+    ],
+    "description": "Razorpay is hiring a Product Manager for our core payments engineering team in Bengaluru.",
+    "sources": [
+      {
+        "portal": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Product%20Manager%20Razorpay&location=Bengaluru",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-19T10:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-8",
+    "title": "Field Delivery Associate",
+    "slug": "field-delivery-associate-blinkit-commerce-delhi-ncr",
+    "companyName": "Blinkit Commerce",
+    "companyId": {
+      "_id": "comp-8",
+      "name": "Blinkit Commerce",
+      "slug": "blinkit-commerce",
+      "isVerified": true
+    },
+    "qualification": [
+      "10th Pass",
+      "12th / Inter"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 240000,
+    "salaryMax": 320000,
+    "salaryDisplay": "₹20,000 - ₹26,000/mo",
+    "location": {
+      "city": "Delhi NCR",
+      "state": "Delhi",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 45,
+    "skills": [
+      "Two-wheeler Driving",
+      "Smartphone Usage",
+      "Local Route Knowledge"
+    ],
+    "description": "Deliver grocery orders within designated 10-minute micro-zones in South Delhi and Noida. Weekly payouts, fuel allowance, and full medical insurance included.",
+    "sources": [
+      {
+        "portal": "Apna",
+        "url": "https://apna.co/jobs?q=Field+Delivery+Associate+Blinkit&location=Delhi",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-19T02:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-9",
+    "title": "Field Delivery Associate",
+    "slug": "field-delivery-associate-blinkit-delhi-ncr",
+    "companyName": "Blinkit",
+    "companyId": {
+      "_id": "comp-9",
+      "name": "Blinkit",
+      "slug": "blinkit",
+      "isVerified": true
+    },
+    "qualification": [
+      "10th Pass"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 240000,
+    "salaryMax": 320000,
+    "salaryDisplay": "₹20,000 - ₹26,000/mo",
+    "location": {
+      "city": "Delhi NCR",
+      "state": "Delhi",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 45,
+    "skills": [
+      "Delivery Partner",
+      "Bike Driving"
+    ],
+    "description": "Urgent hiring for Blinkit delivery executives across Delhi NCR.",
+    "sources": [
+      {
+        "portal": "Indeed",
+        "url": "https://in.indeed.com/jobs?q=Delivery+Associate+Blinkit&l=Delhi",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-18T22:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-10",
+    "title": "Customer Support Associate (Voice / Blended)",
+    "slug": "customer-support-associate-voice-blended-teleperformance-india-hyderabad",
+    "companyName": "Teleperformance India",
+    "companyId": {
+      "_id": "comp-10",
+      "name": "Teleperformance India",
+      "slug": "teleperformance-india",
+      "isVerified": true
+    },
+    "qualification": [
+      "12th / Inter",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 2,
+    "salaryMin": 260000,
+    "salaryMax": 360000,
+    "salaryDisplay": "INR 2.6-3.6 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 30,
+    "skills": [
+      "English Fluency",
+      "Hindi",
+      "Customer Empathy",
+      "CRM Tools"
+    ],
+    "description": "Handle inbound customer queries regarding banking products and debit card activation. 5 days working with rotational shifts and company cab facility.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Customer%20Support%20Teleperformance&cityTypeGid=Hyderabad",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-18T18:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-11",
+    "title": "Customer Support Associate (Voice / Blended)",
+    "slug": "customer-support-associate-voice-blended-teleperformance-hyderabad",
+    "companyName": "Teleperformance",
+    "companyId": {
+      "_id": "comp-11",
+      "name": "Teleperformance",
+      "slug": "teleperformance",
+      "isVerified": true
+    },
+    "qualification": [
+      "12th / Inter",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 2,
+    "salaryMin": 260000,
+    "salaryMax": 360000,
+    "salaryDisplay": "INR 2.6-3.6 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 30,
+    "skills": [
+      "Customer Care",
+      "Voice Process",
+      "Communication"
+    ],
+    "description": "Hiring Customer Care Executives for banking process at Teleperformance Hyderabad.",
+    "sources": [
+      {
+        "portal": "Indeed",
+        "url": "https://in.indeed.com/jobs?q=Customer+Support+Teleperformance&l=Hyderabad",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-18T14:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-12",
+    "title": "Office Assistant & Data Entry Clerk",
+    "slug": "office-assistant-data-entry-clerk-muthoot-finance-ltd-chennai",
+    "companyName": "Muthoot Finance Ltd",
+    "companyId": {
+      "_id": "comp-12",
+      "name": "Muthoot Finance Ltd",
+      "slug": "muthoot-finance-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "12th / Inter",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 216000,
+    "salaryMax": 280000,
+    "salaryDisplay": "₹18,000 - ₹23,000/mo",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 12,
+    "skills": [
+      "Fast Typing (35+ WPM)",
+      "MS Office",
+      "Document Verification"
+    ],
+    "description": "Maintain branch records, assist customers with gold loan KYC documentation, and perform basic data entry into core banking software.",
+    "sources": [
+      {
+        "portal": "Indeed",
+        "url": "https://in.indeed.com/jobs?q=Office+Assistant+Muthoot+Finance&l=Chennai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-18T10:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-13",
+    "title": "Warehouse Operations Assistant",
+    "slug": "warehouse-operations-assistant-flipkart-internet-pvt-ltd-pune",
+    "companyName": "Flipkart Internet Pvt Ltd",
+    "companyId": {
+      "_id": "comp-13",
+      "name": "Flipkart Internet Pvt Ltd",
+      "slug": "flipkart-internet-pvt-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "10th Pass",
+      "Diploma / ITI"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 220000,
+    "salaryMax": 290000,
+    "salaryDisplay": "₹18,500 - ₹24,000/mo",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 25,
+    "skills": [
+      "Barcode Scanning",
+      "Inventory Packing",
+      "Material Handling"
+    ],
+    "description": "Work in Flipkart’s automated fulfillment center in Chakan, Pune. Handle scanning, sorting, and dispatching consumer packages with high accuracy.",
+    "sources": [
+      {
+        "portal": "Apna",
+        "url": "https://apna.co/jobs?q=Warehouse+Assistant+Flipkart&location=Pune",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-18T06:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-14",
+    "title": "CNC Machine Operator & Technician",
+    "slug": "cnc-machine-operator-technician-tata-motors-limited-pune",
+    "companyName": "Tata Motors Limited",
+    "companyId": {
+      "_id": "comp-14",
+      "name": "Tata Motors Limited",
+      "slug": "tata-motors-limited",
+      "isVerified": true
+    },
+    "qualification": [
+      "Diploma / ITI"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 3,
+    "salaryMin": 300000,
+    "salaryMax": 420000,
+    "salaryDisplay": "INR 3-4.2 LPA",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 15,
+    "skills": [
+      "CNC Milling",
+      "Lathe Operations",
+      "Blueprint Reading",
+      "Industrial Safety"
+    ],
+    "description": "Operate advanced 4-axis CNC machines for automotive components fabrication at Tata Motors manufacturing plant in Pimpri.",
+    "sources": [
+      {
+        "portal": "Govt NCS",
+        "url": "https://www.ncs.gov.in/job-seeker/pages/search.aspx?k=CNC%20Machine%20Operator",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-18T02:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-15",
+    "title": "Junior Electrical Maintenance Engineer",
+    "slug": "junior-electrical-maintenance-engineer-larsen-toubro-ltd-mumbai",
+    "companyName": "Larsen & Toubro Ltd",
+    "companyId": {
+      "_id": "comp-15",
+      "name": "Larsen & Toubro Ltd",
+      "slug": "larsen-toubro-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "Diploma / ITI",
+      "B.Tech / B.E"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 4,
+    "salaryMin": 380000,
+    "salaryMax": 550000,
+    "salaryDisplay": "INR 3.8-5.5 LPA",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 6,
+    "skills": [
+      "PLC Programming",
+      "Circuit Diagnostics",
+      "Switchgear",
+      "Substation Safety"
+    ],
+    "description": "Oversee electrical infrastructure, high-voltage panels, and emergency backup generators at metro rail construction project sites.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Electrical%20Maintenance%20Larsen%20Toubro&cityTypeGid=Mumbai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-17T22:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-16",
+    "title": "Sub-Inspector Technical Assistant",
+    "slug": "sub-inspector-technical-assistant-electronics-corporation-of-india-ecil-hyderabad",
+    "companyName": "Electronics Corporation of India (ECIL)",
+    "companyId": {
+      "_id": "comp-16",
+      "name": "Electronics Corporation of India (ECIL)",
+      "slug": "electronics-corporation-of-india-ecil",
+      "isVerified": true
+    },
+    "qualification": [
+      "Diploma / ITI",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 2,
+    "salaryMin": 320000,
+    "salaryMax": 450000,
+    "salaryDisplay": "INR 3.2-4.5 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 40,
+    "skills": [
+      "Testing & Measurement",
+      "Soldering",
+      "Instrumentation",
+      "Quality Assurance"
+    ],
+    "description": "Govt of India Enterprise undertaking testing and calibration of strategic control systems and electronic instruments.",
+    "sources": [
+      {
+        "portal": "Govt NCS",
+        "url": "https://www.ncs.gov.in/job-seeker/pages/search.aspx?k=ECIL%20Technical%20Assistant",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-17T18:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-17",
+    "title": "Senior Full Stack Engineer",
+    "slug": "senior-full-stack-engineer-swiggy-bengaluru",
+    "companyName": "Swiggy",
+    "companyId": {
+      "_id": "comp-17",
+      "name": "Swiggy",
+      "slug": "swiggy",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Any Graduate"
+    ],
+    "experienceMin": 4,
+    "experienceMax": 8,
+    "salaryMin": 2800000,
+    "salaryMax": 4200000,
+    "salaryDisplay": "INR 28-42 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": true
+    },
+    "jobType": "Full-time",
+    "openingsCount": 4,
+    "skills": [
+      "React",
+      "Node.js",
+      "Distributed Systems",
+      "Kafka",
+      "Redis",
+      "AWS"
+    ],
+    "description": "Architect and scale microservices processing 150k+ restaurant orders per minute during peak surge hours. Lead technical design reviews and optimize latency.",
+    "sources": [
+      {
+        "portal": "Direct Company",
+        "url": "https://swiggy.careers",
+        "isDirect": true
+      },
+      {
+        "portal": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20Swiggy&location=Bengaluru",
+        "isDirect": false
+      },
+      {
+        "portal": "Indeed",
+        "url": "https://in.indeed.com/jobs?q=Senior+Full+Stack+Engineer+Swiggy&l=Bengaluru",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-17T14:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-20",
+    "title": "Frontend Developer (React.js)",
+    "slug": "frontend-developer-reactjs-zerodha-broking-ltd-bengaluru",
+    "companyName": "Zerodha Broking Ltd",
+    "companyId": {
+      "_id": "comp-20",
+      "name": "Zerodha Broking Ltd",
+      "slug": "zerodha-broking-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Any Graduate"
+    ],
+    "experienceMin": 2,
+    "experienceMax": 5,
+    "salaryMin": 1800000,
+    "salaryMax": 2600000,
+    "salaryDisplay": "INR 18-26 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 3,
+    "skills": [
+      "React",
+      "TypeScript",
+      "WebSockets",
+      "Canvas Charts",
+      "Performance Optimization"
+    ],
+    "description": "Build lightning-fast stock trading and portfolio analytics interfaces for Kite, used by 12+ million active traders across India.",
+    "sources": [
+      {
+        "portal": "Direct Company",
+        "url": "https://zerodha.com/careers",
+        "isDirect": true
+      }
+    ],
+    "postedAt": "2026-11-17T02:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-21",
+    "title": "Cloud DevOps & SRE Specialist",
+    "slug": "cloud-devops-sre-specialist-infosys-technologies-hyderabad",
+    "companyName": "Infosys Technologies",
+    "companyId": {
+      "_id": "comp-21",
+      "name": "Infosys Technologies",
+      "slug": "infosys-technologies",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Post Graduate",
+      "Any Graduate"
+    ],
+    "experienceMin": 3,
+    "experienceMax": 6,
+    "salaryMin": 1400000,
+    "salaryMax": 2200000,
+    "salaryDisplay": "INR 14-22 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": true
+    },
+    "jobType": "Full-time",
+    "openingsCount": 5,
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Docker",
+      "CI/CD Pipelines",
+      "Prometheus"
+    ],
+    "description": "Manage cloud infrastructure provisioning, automated deployments, multi-region failover, and SLO observability for global enterprise clients.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Cloud%20DevOps%20Infosys&cityTypeGid=Hyderabad",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-16T22:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-22",
+    "title": "Junior Software Engineer (Freshers / Campus)",
+    "slug": "junior-software-engineer-freshers-campus-tata-consultancy-services-tcs-chennai",
+    "companyName": "Tata Consultancy Services (TCS)",
+    "companyId": {
+      "_id": "comp-22",
+      "name": "Tata Consultancy Services (TCS)",
+      "slug": "tata-consultancy-services-tcs",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 400000,
+    "salaryMax": 700000,
+    "salaryDisplay": "INR 4-7 LPA",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 50,
+    "skills": [
+      "Java",
+      "SQL",
+      "Data Structures",
+      "Git",
+      "Agile Principles"
+    ],
+    "description": "TCS Digital & Ninja hiring for passionate freshers with strong foundation in coding, algorithms, and object-oriented design.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Software%20Engineer%20TCS&cityTypeGid=Chennai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-16T18:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-23",
+    "title": "Machine Learning & GenAI Engineer",
+    "slug": "machine-learning-genai-engineer-phonepe-private-limited-bengaluru",
+    "companyName": "PhonePe Private Limited",
+    "companyId": {
+      "_id": "comp-23",
+      "name": "PhonePe Private Limited",
+      "slug": "phonepe-private-limited",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Post Graduate",
+      "Any Graduate"
+    ],
+    "experienceMin": 2,
+    "experienceMax": 5,
+    "salaryMin": 2400000,
+    "salaryMax": 3600000,
+    "salaryDisplay": "INR 24-36 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 2,
+    "skills": [
+      "PyTorch",
+      "Transformers",
+      "LLMs",
+      "Vector Databases",
+      "Fraud Detection Models"
+    ],
+    "description": "Develop next-gen conversational voice assistants in 11 Indian regional languages and build real-time transaction fraud prevention models.",
+    "sources": [
+      {
+        "portal": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Machine%20Learning%20PhonePe&location=Bengaluru",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-16T14:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-24",
+    "title": "Business Development Executive (B2B Sales)",
+    "slug": "business-development-executive-b2b-sales-indiamart-intermesh-delhi-ncr",
+    "companyName": "IndiaMART InterMESH",
+    "companyId": {
+      "_id": "comp-24",
+      "name": "IndiaMART InterMESH",
+      "slug": "indiamart-intermesh",
+      "isVerified": true
+    },
+    "qualification": [
+      "12th / Inter",
+      "Any Graduate"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 3,
+    "salaryMin": 400000,
+    "salaryMax": 650000,
+    "salaryDisplay": "INR 4-6.5 LPA",
+    "location": {
+      "city": "Delhi NCR",
+      "state": "Delhi",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 10,
+    "skills": [
+      "Cold Calling",
+      "Client Pitching",
+      "B2B Sales",
+      "Negotiation",
+      "CRM"
+    ],
+    "description": "Onboard SME manufacturers and suppliers onto IndiaMART digital storefront subscription packages. Lucrative weekly performance incentives.",
+    "sources": [
+      {
+        "portal": "Indeed",
+        "url": "https://in.indeed.com/jobs?q=Business+Development+Executive+IndiaMART&l=Delhi",
+        "isDirect": false
+      },
+      {
+        "portal": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Development%20Executive%20IndiaMART&location=Delhi",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-16T10:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-25",
+    "title": "Business Development Executive (B2B Sales)",
+    "slug": "business-development-executive-b2b-sales-indiamart-delhi-ncr",
+    "companyName": "IndiaMART",
+    "companyId": {
+      "_id": "comp-25",
+      "name": "IndiaMART",
+      "slug": "indiamart",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "12th / Inter"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 3,
+    "salaryMin": 400000,
+    "salaryMax": 650000,
+    "salaryDisplay": "INR 4-6.5 LPA",
+    "location": {
+      "city": "Delhi NCR",
+      "state": "Delhi",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 10,
+    "skills": [
+      "B2B Sales",
+      "Field Sales",
+      "Negotiation"
+    ],
+    "description": "IndiaMART is hiring BDEs for Delhi NCR region.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Business%20Development%20Executive%20IndiaMART&cityTypeGid=Delhi",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-16T06:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-27",
+    "title": "Senior Financial Analyst & Accountant",
+    "slug": "senior-financial-analyst-accountant-hdfc-bank-ltd-mumbai",
+    "companyName": "HDFC Bank Ltd",
+    "companyId": {
+      "_id": "comp-27",
+      "name": "HDFC Bank Ltd",
+      "slug": "hdfc-bank-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "Post Graduate"
+    ],
+    "experienceMin": 2,
+    "experienceMax": 5,
+    "salaryMin": 800000,
+    "salaryMax": 1300000,
+    "salaryDisplay": "INR 8-13 LPA",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 4,
+    "skills": [
+      "Financial Modeling",
+      "GST Compliance",
+      "Tally Prime",
+      "Auditing",
+      "SAP FICO"
+    ],
+    "description": "Conduct credit risk assessments, manage balance sheet reconciliations, and verify corporate loan portfolio compliance at HDFC Bank central office.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Financial%20Analyst%20HDFC%20Bank&cityTypeGid=Mumbai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-15T22:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-28",
+    "title": "Digital Marketing & Growth Lead",
+    "slug": "digital-marketing-growth-lead-nykaa-e-retail-mumbai",
+    "companyName": "Nykaa E-Retail",
+    "companyId": {
+      "_id": "comp-28",
+      "name": "Nykaa E-Retail",
+      "slug": "nykaa-e-retail",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "Post Graduate"
+    ],
+    "experienceMin": 3,
+    "experienceMax": 6,
+    "salaryMin": 1500000,
+    "salaryMax": 2200000,
+    "salaryDisplay": "INR 15-22 LPA",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 2,
+    "skills": [
+      "Google Ads",
+      "Meta Ad Manager",
+      "SEO/SEM",
+      "ROAS Optimization",
+      "Influencer Marketing"
+    ],
+    "description": "Drive high-conversion omnichannel acquisition campaigns across beauty and wellness categories, managing over ₹5 Cr monthly ad spend.",
+    "sources": [
+      {
+        "portal": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Growth%20Lead%20Nykaa&location=Mumbai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-15T18:24:51.179Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-29",
+    "title": "Talent Acquisition Specialist (Tech Hiring)",
+    "slug": "talent-acquisition-specialist-tech-hiring-cred-financial-services-bengaluru",
+    "companyName": "Cred Financial Services",
+    "companyId": {
+      "_id": "comp-29",
+      "name": "Cred Financial Services",
+      "slug": "cred-financial-services",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "Post Graduate"
+    ],
+    "experienceMin": 2,
+    "experienceMax": 5,
+    "salaryMin": 1000000,
+    "salaryMax": 1600000,
+    "salaryDisplay": "INR 10-16 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": true
+    },
+    "jobType": "Full-time",
+    "openingsCount": 3,
+    "skills": [
+      "Technical Sourcing",
+      "LinkedIn Recruiter",
+      "Candidate Experience",
+      "Compensation Benchmarking"
+    ],
+    "description": "Partner with engineering and product leaders to hire world-class software designers and distributed systems architects.",
+    "sources": [
+      {
+        "portal": "Direct Company",
+        "url": "https://cred.club/careers",
+        "isDirect": true
+      }
+    ],
+    "postedAt": "2026-11-15T14:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-30",
+    "title": "Software Development Engineering Intern",
+    "slug": "software-development-engineering-intern-swiggy-logistics-bengaluru",
+    "companyName": "Swiggy Logistics",
+    "companyId": {
+      "_id": "comp-30",
+      "name": "Swiggy Logistics",
+      "slug": "swiggy-logistics",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 360000,
+    "salaryMax": 600000,
+    "salaryDisplay": "INR 3.6-6 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Internship",
+    "openingsCount": 6,
+    "skills": [
+      "React",
+      "Node.js",
+      "Data Structures",
+      "Git"
+    ],
+    "description": "Join Swiggy Consumer Tech pod as a Software Intern. Write production-ready microservices, build delightful responsive user journeys, and solve hyper-local delivery at scale.",
+    "sources": [
+      {
+        "portal": "Internshala",
+        "url": "https://internshala.com/internship/detail/software-development-engineering-intern-swiggy",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-15T10:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-31",
+    "title": "Product Management Summer Trainee",
+    "slug": "product-management-summer-trainee-meesho-technologies-bengaluru",
+    "companyName": "Meesho Technologies",
+    "companyId": {
+      "_id": "comp-31",
+      "name": "Meesho Technologies",
+      "slug": "meesho-technologies",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "Post Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 800000,
+    "salaryMax": 1200000,
+    "salaryDisplay": "INR 8-12 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Internship",
+    "openingsCount": 4,
+    "skills": [
+      "Product Discovery",
+      "SQL",
+      "User Research",
+      "Wireframing"
+    ],
+    "description": "Define product roadmaps for Tier-2/Tier-3 Indian consumers, run growth experiments, and partner with design and engineering teams at Meesho.",
+    "sources": [
+      {
+        "portal": "Unstop",
+        "url": "https://unstop.com/internships/product-management-summer-trainee-meesho",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-15T06:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-32",
+    "title": "Graduate Engineer Trainee (GET - Automobile & EV)",
+    "slug": "graduate-engineer-trainee-get---automobile-ev-tata-motors-ltd-pune",
+    "companyName": "Tata Motors Ltd",
+    "companyId": {
+      "_id": "comp-32",
+      "name": "Tata Motors Ltd",
+      "slug": "tata-motors-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Diploma / ITI"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 650000,
+    "salaryMax": 900000,
+    "salaryDisplay": "INR 6.5-9 LPA",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 15,
+    "skills": [
+      "CAD/CAM",
+      "Automotive Systems",
+      "Battery Tech",
+      "Quality Control"
+    ],
+    "description": "Tata Motors is recruiting fresh engineering graduates for its Passenger Electric Mobility (TPEM) plants in Pune. Undergo rigorous rotative leadership development.",
+    "sources": [
+      {
+        "portal": "Unstop",
+        "url": "https://unstop.com/jobs/graduate-engineer-trainee-tata-motors",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-15T02:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-33",
+    "title": "Data Science & GenAI Intern",
+    "slug": "data-science-genai-intern-razorpay-software-remote",
+    "companyName": "Razorpay Software",
+    "companyId": {
+      "_id": "comp-33",
+      "name": "Razorpay Software",
+      "slug": "razorpay-software",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Post Graduate",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 480000,
+    "salaryMax": 720000,
+    "salaryDisplay": "INR 4.8-7.2 LPA",
+    "location": {
+      "city": "Remote",
+      "state": "India",
+      "isRemote": true
+    },
+    "jobType": "Internship",
+    "openingsCount": 5,
+    "skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "SQL",
+      "Prompt Engineering"
+    ],
+    "description": "Work on cutting-edge financial LLMs and risk scoring neural networks with Razorpay AI Innovation Labs.",
+    "sources": [
+      {
+        "portal": "Internshala",
+        "url": "https://internshala.com/internship/detail/data-science-genai-intern-razorpay",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-14T22:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-34",
+    "title": "Business Analytics & Growth Intern",
+    "slug": "business-analytics-growth-intern-nykaa-e-retail-mumbai",
+    "companyName": "Nykaa E-Retail",
+    "companyId": {
+      "_id": "comp-34",
+      "name": "Nykaa E-Retail",
+      "slug": "nykaa-e-retail",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 300000,
+    "salaryMax": 500000,
+    "salaryDisplay": "INR 3-5 LPA",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Internship",
+    "openingsCount": 3,
+    "skills": [
+      "Excel Modeling",
+      "Google Analytics",
+      "SQL",
+      "Dashboarding"
+    ],
+    "description": "Track omnichannel customer acquisition funnels, analyze beauty basket sizes, and deliver actionable insights.",
+    "sources": [
+      {
+        "portal": "Internshala",
+        "url": "https://internshala.com/internship/detail/business-analytics-intern-nykaa",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-14T18:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-35",
+    "title": "Associate Software Trainee (Freshers Batch)",
+    "slug": "associate-software-trainee-freshers-batch-infosys-ltd-bengaluru",
+    "companyName": "Infosys Ltd",
+    "companyId": {
+      "_id": "comp-35",
+      "name": "Infosys Ltd",
+      "slug": "infosys-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 400000,
+    "salaryMax": 650000,
+    "salaryDisplay": "INR 4-6.5 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 30,
+    "skills": [
+      "Java",
+      "Python",
+      "Cloud Fundamentals",
+      "Agile"
+    ],
+    "description": "Infosys Mysuru / Bengaluru Campus hiring fresh engineering graduates for global enterprise transformation initiatives.",
+    "sources": [
+      {
+        "portal": "Unstop",
+        "url": "https://unstop.com/jobs/associate-software-trainee-infosys",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-14T14:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-36",
+    "title": "Senior Cloud & DevOps Architect",
+    "slug": "senior-cloud-devops-architect-tata-consultancy-services-tcs-hyderabad",
+    "companyName": "Tata Consultancy Services (TCS)",
+    "companyId": {
+      "_id": "comp-36",
+      "name": "Tata Consultancy Services (TCS)",
+      "slug": "tata-consultancy-services-tcs",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Post Graduate",
+      "Any Graduate"
+    ],
+    "experienceMin": 4,
+    "experienceMax": 8,
+    "salaryMin": 1800000,
+    "salaryMax": 2800000,
+    "salaryDisplay": "INR 18-28 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 4,
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD Pipelines",
+      "Docker"
+    ],
+    "description": "Architect resilient multi-region cloud infrastructures for tier-1 European and North American enterprise clients.",
+    "sources": [
+      {
+        "portal": "Foundit",
+        "url": "https://www.foundit.in/seeker/job-details?jobId=tcs-cloud-architect-hyderabad",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-14T10:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-37",
+    "title": "Principal Site Reliability Engineer (SRE)",
+    "slug": "principal-site-reliability-engineer-sre-flipkart-internet-pvt-ltd-bengaluru",
+    "companyName": "Flipkart Internet Pvt Ltd",
+    "companyId": {
+      "_id": "comp-37",
+      "name": "Flipkart Internet Pvt Ltd",
+      "slug": "flipkart-internet-pvt-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E"
+    ],
+    "experienceMin": 5,
+    "experienceMax": 10,
+    "salaryMin": 2800000,
+    "salaryMax": 4200000,
+    "salaryDisplay": "INR 28-42 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 2,
+    "skills": [
+      "Distributed Systems",
+      "Chaos Engineering",
+      "Go",
+      "Prometheus",
+      "Kafka"
+    ],
+    "description": "Ensure 99.999% uptime for Flipkart Big Billion Days core checkout and inventory distributed clusters.",
+    "sources": [
+      {
+        "portal": "Glassdoor",
+        "url": "https://www.glassdoor.co.in/job-listing/principal-sre-flipkart",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-14T06:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-38",
+    "title": "Enterprise Cybersecurity Analyst",
+    "slug": "enterprise-cybersecurity-analyst-wipro-technologies-chennai",
+    "companyName": "Wipro Technologies",
+    "companyId": {
+      "_id": "comp-38",
+      "name": "Wipro Technologies",
+      "slug": "wipro-technologies",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Any Graduate"
+    ],
+    "experienceMin": 2,
+    "experienceMax": 5,
+    "salaryMin": 1000000,
+    "salaryMax": 1700000,
+    "salaryDisplay": "INR 10-17 LPA",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 3,
+    "skills": [
+      "SIEM",
+      "SOC Operations",
+      "Penetration Testing",
+      "Incident Response"
+    ],
+    "description": "Monitor threat vectors, conduct vulnerability assessments, and safeguard banking client networks.",
+    "sources": [
+      {
+        "portal": "Foundit",
+        "url": "https://www.foundit.in/seeker/job-details?jobId=wipro-cybersecurity-chennai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-14T02:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-39",
+    "title": "Lead Machine Learning Engineer",
+    "slug": "lead-machine-learning-engineer-zomato-logistics-ltd-delhi-ncr",
+    "companyName": "Zomato Logistics Ltd",
+    "companyId": {
+      "_id": "comp-39",
+      "name": "Zomato Logistics Ltd",
+      "slug": "zomato-logistics-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Post Graduate",
+      "Any Graduate"
+    ],
+    "experienceMin": 4,
+    "experienceMax": 8,
+    "salaryMin": 3200000,
+    "salaryMax": 4800000,
+    "salaryDisplay": "INR 32-48 LPA",
+    "location": {
+      "city": "Delhi NCR",
+      "state": "Delhi",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 2,
+    "skills": [
+      "Deep Learning",
+      "PyTorch",
+      "Recommendation Systems",
+      "MLOps"
+    ],
+    "description": "Design and deploy deep ranking recommendation models powering real-time restaurant and dish suggestions for 50M+ monthly users.",
+    "sources": [
+      {
+        "portal": "Glassdoor",
+        "url": "https://www.glassdoor.co.in/job-listing/lead-ml-engineer-zomato",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-13T22:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-40",
+    "title": "Java Full Stack Developer (Microservices)",
+    "slug": "java-full-stack-developer-microservices-capgemini-india-pune",
+    "companyName": "Capgemini India",
+    "companyId": {
+      "_id": "comp-40",
+      "name": "Capgemini India",
+      "slug": "capgemini-india",
+      "isVerified": true
+    },
+    "qualification": [
+      "B.Tech / B.E",
+      "Post Graduate",
+      "Any Graduate"
+    ],
+    "experienceMin": 2,
+    "experienceMax": 6,
+    "salaryMin": 900000,
+    "salaryMax": 1600000,
+    "salaryDisplay": "INR 9-16 LPA",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 8,
+    "skills": [
+      "Java 17",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "description": "Build enterprise microservices architecture and cloud-native solutions for global automotive and fintech clients.",
+    "sources": [
+      {
+        "portal": "Foundit",
+        "url": "https://www.foundit.in/seeker/job-details?jobId=capgemini-java-fullstack-pune",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-13T18:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-41",
+    "title": "Senior Product Designer (UI/UX)",
+    "slug": "senior-product-designer-uiux-phonepe-internet-pvt-ltd-bengaluru",
+    "companyName": "PhonePe Internet Pvt Ltd",
+    "companyId": {
+      "_id": "comp-41",
+      "name": "PhonePe Internet Pvt Ltd",
+      "slug": "phonepe-internet-pvt-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "Post Graduate"
+    ],
+    "experienceMin": 3,
+    "experienceMax": 7,
+    "salaryMin": 2200000,
+    "salaryMax": 3500000,
+    "salaryDisplay": "INR 22-35 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 2,
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Micro-interactions",
+      "User Research"
+    ],
+    "description": "Craft intuitive payment and wealth management user experiences used by 500 million registered Indians.",
+    "sources": [
+      {
+        "portal": "Glassdoor",
+        "url": "https://www.glassdoor.co.in/job-listing/senior-product-designer-phonepe",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-13T14:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-42",
+    "title": "Executive Trainee - Electrical & Instrumentation",
+    "slug": "executive-trainee---electrical-instrumentation-larsen-toubro-lt-mumbai",
+    "companyName": "Larsen & Toubro (L&T)",
+    "companyId": {
+      "_id": "comp-42",
+      "name": "Larsen & Toubro (L&T)",
+      "slug": "larsen-toubro-lt",
+      "isVerified": true
+    },
+    "qualification": [
+      "Diploma / ITI",
+      "B.Tech / B.E"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 2,
+    "salaryMin": 500000,
+    "salaryMax": 800000,
+    "salaryDisplay": "INR 5-8 LPA",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 12,
+    "skills": [
+      "SCADA",
+      "PLC Programming",
+      "Circuit Diagnostics",
+      "Industrial Automation"
+    ],
+    "description": "L&T Heavy Engineering division seeks motivated diploma and degree holders for infrastructure modernization projects across India.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=L%26T+Executive+Trainee&cityTypeGid=Mumbai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-13T10:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-43",
+    "title": "Relationship Manager - Corporate Banking",
+    "slug": "relationship-manager---corporate-banking-icici-bank-ltd-bengaluru",
+    "companyName": "ICICI Bank Ltd",
+    "companyId": {
+      "_id": "comp-43",
+      "name": "ICICI Bank Ltd",
+      "slug": "icici-bank-ltd",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "Post Graduate"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 4,
+    "salaryMin": 600000,
+    "salaryMax": 1000000,
+    "salaryDisplay": "INR 6-10 LPA",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 5,
+    "skills": [
+      "Corporate Credit",
+      "Working Capital",
+      "Client Servicing",
+      "Financial Appraisal"
+    ],
+    "description": "Manage portfolios of medium and large corporate clients, structure working capital facilities, and drive treasury growth.",
+    "sources": [
+      {
+        "portal": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Relationship%20Manager%20ICICI%20Bank&location=Bengaluru",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-13T06:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-44",
+    "title": "Territory Sales Executive (FMCG Distribution)",
+    "slug": "territory-sales-executive-fmcg-distribution-itc-limited-kolkata",
+    "companyName": "ITC Limited",
+    "companyId": {
+      "_id": "comp-44",
+      "name": "ITC Limited",
+      "slug": "itc-limited",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "12th / Inter"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 3,
+    "salaryMin": 450000,
+    "salaryMax": 700000,
+    "salaryDisplay": "INR 4.5-7 LPA",
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 6,
+    "skills": [
+      "Channel Sales",
+      "Distributor Handling",
+      "Retail Penetration"
+    ],
+    "description": "Expand distribution networks, achieve monthly primary/secondary volume targets, and lead retailer relationships.",
+    "sources": [
+      {
+        "portal": "Indeed",
+        "url": "https://in.indeed.com/jobs?q=Territory+Sales+Executive+ITC&l=Kolkata",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-13T02:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-45",
+    "title": "Regional Logistics Hub Manager",
+    "slug": "regional-logistics-hub-manager-delhivery-supply-chain-mumbai",
+    "companyName": "Delhivery Supply Chain",
+    "companyId": {
+      "_id": "comp-45",
+      "name": "Delhivery Supply Chain",
+      "slug": "delhivery-supply-chain",
+      "isVerified": true
+    },
+    "qualification": [
+      "Any Graduate",
+      "Diploma / ITI"
+    ],
+    "experienceMin": 2,
+    "experienceMax": 5,
+    "salaryMin": 700000,
+    "salaryMax": 1100000,
+    "salaryDisplay": "INR 7-11 LPA",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 3,
+    "skills": [
+      "Warehouse Operations",
+      "WMS",
+      "Fleet Scheduling",
+      "Vendor Management"
+    ],
+    "description": "Manage automated sorting center processing 100k+ daily parcels, ensuring SLA adherence and workforce safety.",
+    "sources": [
+      {
+        "portal": "Naukri",
+        "url": "https://www.naukri.com/jobs-in-india?k=Logistics+Hub+Manager+Delhivery&cityTypeGid=Mumbai",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-12T22:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-46",
+    "title": "Retail Store Operations Supervisor",
+    "slug": "retail-store-operations-supervisor-reliance-retail-delhi-ncr",
+    "companyName": "Reliance Retail",
+    "companyId": {
+      "_id": "comp-46",
+      "name": "Reliance Retail",
+      "slug": "reliance-retail",
+      "isVerified": true
+    },
+    "qualification": [
+      "12th / Inter",
+      "Any Graduate"
+    ],
+    "experienceMin": 1,
+    "experienceMax": 3,
+    "salaryMin": 280000,
+    "salaryMax": 420000,
+    "salaryDisplay": "INR 2.8-4.2 LPA",
+    "location": {
+      "city": "Delhi NCR",
+      "state": "Delhi",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 10,
+    "skills": [
+      "Visual Merchandising",
+      "POS Billing",
+      "Inventory Audit",
+      "Customer Delight"
+    ],
+    "description": "Supervise daily store operations, guide sales associates, handle cash reconciliation, and ensure world-class customer service.",
+    "sources": [
+      {
+        "portal": "Apna",
+        "url": "https://apna.co/jobs?q=Store+Supervisor+Reliance+Retail&location=Delhi",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-12T18:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-47",
+    "title": "Warehouse & Inventory Associate",
+    "slug": "warehouse-inventory-associate-blinkit-commerce-delhi-ncr",
+    "companyName": "Blinkit Commerce",
+    "companyId": {
+      "_id": "comp-47",
+      "name": "Blinkit Commerce",
+      "slug": "blinkit-commerce",
+      "isVerified": true
+    },
+    "qualification": [
+      "10th Pass",
+      "12th / Inter"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 2,
+    "salaryMin": 220000,
+    "salaryMax": 320000,
+    "salaryDisplay": "INR 2.2-3.2 LPA",
+    "location": {
+      "city": "Delhi NCR",
+      "state": "Delhi",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 25,
+    "skills": [
+      "Barcode Scanning",
+      "Order Ingestion",
+      "Inventory Restocking"
+    ],
+    "description": "Assist in order sorting and packing at 10-minute dark stores. Day and night shifts available with attendance bonuses.",
+    "sources": [
+      {
+        "portal": "Apna",
+        "url": "https://apna.co/jobs?q=Dark+Store+Associate+Blinkit&location=Delhi",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-12T14:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-48",
+    "title": "Graduate & Technician Apprentice (Mech / Electrical / IT)",
+    "slug": "graduate-technician-apprentice-mech-electrical-it-bharat-heavy-electricals-ltd-bhel-hyderabad",
+    "companyName": "Bharat Heavy Electricals Ltd (BHEL)",
+    "companyId": {
+      "_id": "comp-48",
+      "name": "Bharat Heavy Electricals Ltd (BHEL)",
+      "slug": "bharat-heavy-electricals-ltd-bhel",
+      "isVerified": true
+    },
+    "qualification": [
+      "Diploma / ITI",
+      "B.Tech / B.E"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 300000,
+    "salaryMax": 480000,
+    "salaryDisplay": "INR 3-4.8 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 50,
+    "skills": [
+      "Power Systems",
+      "Heavy Machinery",
+      "Industrial Safety",
+      "CAD"
+    ],
+    "description": "National Apprenticeship Training Scheme (NATS) 1-year apprenticeship at BHEL heavy manufacturing units with Government stipend.",
+    "sources": [
+      {
+        "portal": "Govt NCS",
+        "url": "https://www.ncs.gov.in/job-seeker/pages/jobdetail.aspx?jobid=BHEL-APP-2026",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-12T10:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-49",
+    "title": "Junior Technical Officer & Scientific Assistant",
+    "slug": "junior-technical-officer-scientific-assistant-electronics-corporation-of-india-ltd-ecil-hyderabad",
+    "companyName": "Electronics Corporation of India Ltd (ECIL)",
+    "companyId": {
+      "_id": "comp-49",
+      "name": "Electronics Corporation of India Ltd (ECIL)",
+      "slug": "electronics-corporation-of-india-ltd-ecil",
+      "isVerified": true
+    },
+    "qualification": [
+      "Diploma / ITI",
+      "B.Tech / B.E"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 2,
+    "salaryMin": 400000,
+    "salaryMax": 600000,
+    "salaryDisplay": "INR 4-6 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Contract",
+    "openingsCount": 20,
+    "skills": [
+      "Embedded Systems",
+      "PCB Testing",
+      "RF Electronics",
+      "Quality Assurance"
+    ],
+    "description": "ECIL invites applications for technical officers to support national defense electronics and strategic communication programs.",
+    "sources": [
+      {
+        "portal": "Govt NCS",
+        "url": "https://www.ncs.gov.in/job-seeker/pages/jobdetail.aspx?jobid=ECIL-JTO-2026",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-12T06:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-50",
+    "title": "Management Trainee (HR, Finance, Material Management)",
+    "slug": "management-trainee-hr-finance-material-management-steel-authority-of-india-ltd-sail-delhi-ncr",
+    "companyName": "Steel Authority of India Ltd (SAIL)",
+    "companyId": {
+      "_id": "comp-50",
+      "name": "Steel Authority of India Ltd (SAIL)",
+      "slug": "steel-authority-of-india-ltd-sail",
+      "isVerified": true
+    },
+    "qualification": [
+      "Post Graduate",
+      "Any Graduate"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 2,
+    "salaryMin": 750000,
+    "salaryMax": 1200000,
+    "salaryDisplay": "INR 7.5-12 LPA",
+    "location": {
+      "city": "Delhi NCR",
+      "state": "Delhi",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 18,
+    "skills": [
+      "Industrial Relations",
+      "Cost Accounting",
+      "ERP",
+      "Strategic Procurement"
+    ],
+    "description": "SAIL recruitment of Management Trainees (Administration) through National Career Service portal with central public sector perks.",
+    "sources": [
+      {
+        "portal": "Govt NCS",
+        "url": "https://www.ncs.gov.in/job-seeker/pages/jobdetail.aspx?jobid=SAIL-MT-2026",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-12T02:24:51.180Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "job-51",
+    "title": "Apprentice Trainee - Signals & Telecommunications",
+    "slug": "apprentice-trainee---signals-telecommunications-indian-railways-rrb-ncs-hyderabad",
+    "companyName": "Indian Railways (RRB / NCS)",
+    "companyId": {
+      "_id": "comp-51",
+      "name": "Indian Railways (RRB / NCS)",
+      "slug": "indian-railways-rrb-ncs",
+      "isVerified": true
+    },
+    "qualification": [
+      "10th Pass",
+      "Diploma / ITI"
+    ],
+    "experienceMin": 0,
+    "experienceMax": 1,
+    "salaryMin": 240000,
+    "salaryMax": 360000,
+    "salaryDisplay": "INR 2.4-3.6 LPA",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "isRemote": false
+    },
+    "jobType": "Full-time",
+    "openingsCount": 40,
+    "skills": [
+      "Railway Signaling",
+      "Track Circuit Maintenance",
+      "Electrical Safety"
+    ],
+    "description": "South Central Railway Apprentice Act training for ITI certificate holders in Electronic Mechanic and Wireman trades.",
+    "sources": [
+      {
+        "portal": "Govt NCS",
+        "url": "https://www.ncs.gov.in/job-seeker/pages/jobdetail.aspx?jobid=RAIL-SCR-2026",
+        "isDirect": false
+      }
+    ],
+    "postedAt": "2026-11-11T22:24:51.180Z",
+    "status": "ACTIVE"
+  }
+]
