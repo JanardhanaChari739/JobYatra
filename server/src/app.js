@@ -3,6 +3,8 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
+const path = require('path');
+const fs = require('fs');
 const routes = require('./routes');
 const errorHandler = require('./middlewares/errorHandler');
 const ApiError = require('./utils/ApiError');
@@ -63,17 +65,27 @@ app.use('/api', generalLimiter);
 // API Routes
 app.use('/api/v1', routes);
 
-// Root greeting
-app.get('/', (req, res) => {
-  res.json({
-    name: 'JobYatra API',
-    tagline: 'Every Portal. One Search.',
-    version: '1.0.0',
-    documentation: '/api/v1/health'
+// Serve static frontend in production if built
+const clientDist = path.join(__dirname, '../../client/dist');
+if (fs.existsSync(clientDist)) {
+  app.use(express.static(clientDist));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    res.sendFile(path.join(clientDist, 'index.html'));
   });
-});
+} else {
+  // Root greeting in API-only mode
+  app.get('/', (req, res) => {
+    res.json({
+      name: 'JobYatra API',
+      tagline: 'Every Portal. One Search.',
+      version: '1.0.0',
+      documentation: '/api/v1/health'
+    });
+  });
+}
 
-// 404 handler for unmatched routes
+// 404 handler for unmatched API routes
 app.use('*', (req, res, next) => {
   next(new ApiError(404, `Cannot find ${req.originalUrl} on this server`));
 });
